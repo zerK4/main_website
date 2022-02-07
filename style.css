@@ -361,6 +361,8 @@ footer ul{
     display: flex;
     flex-direction: column;
 }
+footer li{
+ list-style: none;
 @media(max-width: 1500px){
     main{
         flex-wrap: wrap;
