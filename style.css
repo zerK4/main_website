@@ -374,6 +374,14 @@ footer li{
         width: 30%;
     }
 }
+@media(max-width: 1500px){
+    main{
+        flex-wrap: wrap;
+    }
+    .container{
+        width: 30%;
+    }
+}
 @media(max-width: 1300px){
     .container{
         width: 50%;
