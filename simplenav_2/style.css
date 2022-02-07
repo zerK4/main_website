@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #030305;
+    min-height: 100vh;
+}
+header{
+    position: fixed;
+    height: 100vh;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-right: 1px solid white;
+}
+.logo{
+    margin-left: 3rem;
+    color: white;
+    font-size: 5rem;
+    height: 10rem;
+    width: 10rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav{
+    margin-right: 3rem;
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    width: 100%;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    padding: 1rem 0 1rem 1rem;
+    width: 80%;
+    position: relative;
+}
+.link:hover{
+    background-image: linear-gradient(to left, white 5%, black 100%);
+}
+.link:hover::after{
+    content: ' ';
+    position: absolute;
+    width: 0; 
+    height: 0;
+    left: 95%;
+    top: 40%;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid black;
+}
+.link.home{
+    background: white;
+}
+.social{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.link-s{
+    font-size: 1.3rem;
+    color: white;
+    padding: 1rem;
+}
+.link-s:hover{
+    background-image:radial-gradient(white 0%, black 70%);
+}
+.copy{
+    color: white;
+}
