@@ -337,10 +337,13 @@ align-items: center;
     width: 15rem;
     height: 2.5rem;
     cursor: pointer;
+    border: none;
+    outline: none;
 }
 .select:hover{
     color: white;
     background-image: linear-gradient(to right, #312244 0%, #14213d 100%);
+    box-shadow: 1px 1px 5px 1px white;
 }
 footer{
     display: flex;
